@@ -18,7 +18,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:3000",
     ],
-    allow_origin_regex=r"https://.*\.onrender\.com",  # Allow any Render deployment
+    allow_origin_regex=r"https://.*\.onrender\.com|https://.*\.vercel\.app",  # Allow Render and Vercel deployments
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
