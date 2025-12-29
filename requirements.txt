@@ -12,7 +12,7 @@ langchain-huggingface==0.1.2
 langchain-pinecone==0.2.3
 
 # Pinecone
-pinecone-client==5.0.0
+pinecone>=5.4.2
 
 # ML & Embeddings
 sentence-transformers==3.0.0
