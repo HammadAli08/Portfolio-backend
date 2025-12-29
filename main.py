@@ -15,11 +15,10 @@ app = FastAPI(title="Portfolio RAG Agent API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",  # Vite dev server
-        "http://localhost:3000",  # Alternative dev port
-        "https://portfolio-frontend.onrender.com",  # Render frontend (adjust if different)
-        "*"  # Allow all for development - tighten in production
+        "http://localhost:5173",
+        "http://localhost:3000",
     ],
+    allow_origin_regex=r"https://.*\.onrender\.com",  # Allow any Render deployment
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
