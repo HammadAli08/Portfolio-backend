@@ -15,11 +15,11 @@ app = FastAPI(title="Portfolio RAG Agent API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "https://port-frontend-theta.vercel.app",
+        "http://localhost:5173",  # Vite dev server
+        "http://localhost:3000",  # Alternative dev port
+        "https://portfolio-frontend.onrender.com",  # Render frontend (adjust if different)
+        "*"  # Allow all for development - tighten in production
     ],
-    allow_origin_regex=r"https://.*\.onrender\.com|https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -81,7 +81,6 @@ async def get_stats():
     return stats
 
 @app.post("/api/chat")
-@app.post("/chat")
 async def chat(request: ChatRequest):
     start_time = time.time()
     pipeline = get_rag_pipeline()
