@@ -81,6 +81,7 @@ async def get_stats():
     return stats
 
 @app.post("/api/chat")
+@app.post("/chat")
 async def chat(request: ChatRequest):
     start_time = time.time()
     pipeline = get_rag_pipeline()
