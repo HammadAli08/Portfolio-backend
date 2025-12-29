@@ -22,7 +22,7 @@ class RAGPipeline:
             }
         )
         self.llm = ChatGroq(
-            model_name="openai/gpt-oss-120b",
+            model_name="openai/gpt-oss-20b",
             temperature=0,
             streaming=True
         )
