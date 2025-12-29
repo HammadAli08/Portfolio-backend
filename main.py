@@ -89,8 +89,14 @@ async def chat(request: ChatRequest):
     
     if request.stream:
         async def event_generator():
-            for chunk in pipeline.get_response_stream(request.message):
-                yield chunk
+            try:
+                print(f"Starting stream for query: {request.message[:50]}...")
+                for chunk in pipeline.get_response_stream(request.message):
+                    yield chunk
+                print("Stream completed successfully")
+            except Exception as e:
+                print(f"Error in stream generation: {e}")
+                yield f"[ERROR] {str(e)}"
             
             # Update average response time (simplified)
             duration = time.time() - start_time
