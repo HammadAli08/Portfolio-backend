@@ -37,6 +37,14 @@ class ChatRequest(BaseModel):
     message: str
     stream: bool = True
 
+@app.get("/")
+async def root():
+    return {
+        "message": "Portfolio RAG Backend is running",
+        "docs_url": "/docs",
+        "health_check": "/api/health"
+    }
+
 @app.on_event("startup")
 async def startup_event():
     # Pinecone is cloud-based, so we just ensure we can connect
