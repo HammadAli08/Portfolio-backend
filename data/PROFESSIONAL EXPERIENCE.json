@@ -1,0 +1,39 @@
+{
+  "experiences": [
+    {
+      "role": "Generative AI Engineer",
+      "company": "Uraan AI Techathone 1.0",
+      "duration": "September 2025 - October 2025 (2 months)",
+      "achievements": [
+        "Developed AI-Powered Legal Case Management System",
+        "Achieved 91.5% classification and 95.2% prioritization accuracy",
+        "Built interactive Streamlit interface with Hugging Face embeddings, ChromaDB, and Llama-3.1-8B",
+        "Improved legal data analysis efficiency significantly"
+      ],
+      "technologies_used": [
+        "Machine Learning",
+        "RAG (Retrieval-Augmented Generation)",
+        "Support Vector Classifier",
+        "Naïve Bayes",
+        "Random Forest",
+        "Streamlit"
+      ]
+    },
+    {
+      "role": "AI Developer",
+      "company": "IBM Hackathon",
+      "duration": "December 2024",
+      "achievements": [
+        "Developed AI-powered career development platform on IBM Watsonx",
+        "Created dual-tool system: Career Planner AI and Resume Analyzer AI",
+        "Integrated IBM Watsonx for enterprise-grade AI capabilities",
+        "Designed professional interface with intelligent input validation"
+      ],
+      "technologies_used": [
+        "IBM Watsonx",
+        "AI Integration",
+        "Secure Authentication"
+      ]
+    }
+  ]
+}

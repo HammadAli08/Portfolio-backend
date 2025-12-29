@@ -1,0 +1,57 @@
+{
+  "project_name": "Loan Approval Prediction System",
+  "repository": "https://github.com/HammadAli08/Loan_Approval_Prediction",
+  "accuracy": "> 90% on test set",
+  "type": "End-to-end Machine Learning Project",
+  "features": [
+    "Complete ML pipeline with data ingestion, transformation, and training",
+    "Comparison of 6+ algorithms (Random Forest, Decision Tree, Gradient Boosting, etc.)",
+    "Flask web application with user-friendly interface",
+    "RESTful API endpoints",
+    "Docker containerization",
+    "Azure deployment with CI/CD pipeline"
+  ],
+  "tech_stack": [
+    "Python 3.11+",
+    "Flask",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "Gunicorn",
+    "Docker",
+    "Azure Web Apps"
+  ],
+  "project_structure": {
+    "key_components": [
+      "src/Components/ (data_ingestion.py, data_transformation.py, model_trainer.py)",
+      "src/Pipeline/ (predict_pipeline.py, training_pipeline.py)",
+      "templates/ (HTML templates for web interface)",
+      "artifacts/ (Trained models and data)",
+      "app.py (Main Flask application)"
+    ]
+  },
+  "deployment": {
+    "local": "python app.py (runs on http://localhost:5000)",
+    "docker": "docker run -p 8000:8000 loan-approval-prediction",
+    "azure": "https://loanapprovalprediction.azurewebsites.net",
+    "github_actions": "Automated deployment via .github/workflows/"
+  },
+  "model_features": {
+    "numerical": [
+      "loan_id",
+      "no_of_dependents",
+      "income_annum",
+      "loan_amount",
+      "loan_term",
+      "cibil_score",
+      "residential_assets_value",
+      "commercial_assets_value",
+      "luxury_assets_value",
+      "bank_asset_value"
+    ],
+    "categorical": [
+      "education (Graduate/Not Graduate)",
+      "self_employed (Yes/No)"
+    ]
+  }
+}

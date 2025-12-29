@@ -1,0 +1,40 @@
+{
+  "project_name": "AI-Powered Legal Case Management System",
+  "repository": "https://github.com/HammadAli08/Legal-Management-System",
+  "live_demo": "https://legal-management-system.streamlit.app/",
+  "achievements": [
+    "91.5% classification accuracy in Uraan AI Techathon",
+    "95.2% prioritization accuracy",
+    "Reduced legal research time by 70%"
+  ],
+  "features": [
+    "Case Classification (Civil, Criminal, Constitutional)",
+    "Case Prioritization (High, Medium, Low urgency)",
+    "Legal Precedent Search using RAG",
+    "Streamlit-based interactive interface"
+  ],
+  "tech_stack": [
+    "Python",
+    "Streamlit",
+    "LangChain",
+    "ChromaDB",
+    "Llama-3.1-8B",
+    "Hugging Face embeddings",
+    "Support Vector Classifier",
+    "Naïve Bayes",
+    "Random Forest"
+  ],
+  "project_structure": {
+    "components": [
+      "Case Categorization/ (voting_pipeline.pkl, label_encoder.pkl)",
+      "Case Prioritization/ (stacking_pipeline.pkl, label_encoder.pkl)",
+      "Legal_Precedent_Search/ (chroma_db/, embeddings_config.pkl)",
+      "app.py (Main Streamlit application)"
+    ]
+  },
+  "deployment_options": [
+    "Streamlit Cloud",
+    "Docker containerization"
+  ],
+  "notable_aspect": "Uses ensemble methods and RAG for comprehensive legal AI solution"
+}

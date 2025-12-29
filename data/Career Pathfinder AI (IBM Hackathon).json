@@ -1,0 +1,33 @@
+{
+  "project_name": "Career Pathfinder AI",
+  "repository": "https://github.com/HammadAli08/IBM-Hackathone",
+  "live_demo": "https://ibm-hackathone.vercel.app/",
+  "duration": "IBM Hackathon (December 2024)",
+  "description": "AI-powered career development and resume analysis platform built with IBM Watsonx",
+  "features": [
+    "Career Planner: Personalized career growth roadmaps, skill gap analysis, career transition strategies",
+    "Resume Analyzer: Resume-job matching, optimization suggestions, readiness assessment, ATS-friendly formatting",
+    "Dual-tool system integrated with enterprise-grade AI capabilities",
+    "Secure authentication system"
+  ],
+  "tech_stack": [
+    "Frontend: HTML, CSS, JavaScript",
+    "AI Backend: IBM Watsonx Orchestrate",
+    "AI Model: Llama 3.2 90B Vision Instruct",
+    "Deployment: Vercel",
+    "Chat Interface: IBM Watsonx Embedded Chat"
+  ],
+  "architecture": {
+    "components": [
+      "Career Planner AI - For growth roadmaps",
+      "Resume Analyzer AI - For job compatibility",
+      "IBM Watsonx Integration - Enterprise-grade AI capabilities",
+      "Professional Interface with intelligent input validation"
+    ]
+  },
+  "key_achievements": [
+    "Built during IBM Hackathon under time constraints",
+    "Integrated IBM Watsonx for production-ready AI capabilities",
+    "Created dual AI system addressing both career planning and resume analysis"
+  ]
+}

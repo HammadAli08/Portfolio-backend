@@ -1,0 +1,114 @@
+{
+  "learning_repositories": [
+    {
+      "name": "Data-Science-Toolbox",
+      "url": "https://github.com/HammadAli08/Data-Science-Toolbox",
+      "description": "Every Data Science Concept! Comprehensive implementation of data science fundamentals",
+      "technologies": ["Python", "Jupyter Notebook"],
+      "topics": ["nlp", "encoding", "data-science", "numpy", "word2vec", "word-embeddings"],
+      "key_content": [
+        "Complete data science workflow implementations",
+        "NLP concepts and word embedding techniques",
+        "Transformer NLP models built from scratch in PyTorch",
+        "Core data science algorithms and implementations"
+      ],
+      "status": "Active (Updated September 8)"
+    },
+    {
+      "name": "Classification-Models",
+      "url": "https://github.com/HammadAli08/Classification-Models",
+      "description": "Classification Models for Practice - Implementation of various classification algorithms",
+      "technologies": ["Jupyter Notebook"],
+      "topics": ["naive-bayes-classifier", "classification", "confusion-matrix", "svm-training", "svm-model", "decision-tree-classifier", "svm-classifier"],
+      "key_content": [
+        "Multiple classification algorithm implementations",
+        "Performance evaluation with confusion matrices",
+        "SVM models with different kernels",
+        "Decision tree classifiers",
+        "Naive Bayes classifiers"
+      ],
+      "status": "Active (Updated September 1)"
+    },
+    {
+      "name": "Regression-Models",
+      "url": "https://github.com/HammadAli08/Regression-Models",
+      "description": "Models for Practice - Comprehensive regression model implementations",
+      "technologies": ["Jupyter Notebook"],
+      "topics": ["regression", "regression-testing", "polynomial-regression", "regression-models", "knn", "knn-regression", "multi-linear-regression"],
+      "key_content": [
+        "Linear and polynomial regression",
+        "KNN regression models",
+        "Multiple linear regression",
+        "Regression testing methodologies",
+        "Model evaluation techniques"
+      ],
+      "status": "Active (Updated August 26)"
+    },
+    {
+      "name": "DataScienceEcosystem",
+      "url": "https://github.com/HammadAli08/DataScienceEcosystem",
+      "description": "Assignment of DataScienceEcosystem - Core data science ecosystem understanding",
+      "technologies": ["Jupyter Notebook"],
+      "topics": ["data-science-fundamentals"],
+      "key_content": [
+        "Data science workflow understanding",
+        "Tools and libraries ecosystem",
+        "Best practices in data science projects"
+      ],
+      "status": "Active (Updated August 26)"
+    },
+    {
+      "name": "UnSupervised-Learning",
+      "url": "https://github.com/HammadAli08/UnSupervied-Learning",
+      "description": "Unsupervised learning algorithms and implementations",
+      "technologies": ["Jupyter Notebook"],
+      "topics": ["unsupervised-learning", "clustering", "dimensionality-reduction"],
+      "key_content": [
+        "Clustering algorithms (K-means, hierarchical)",
+        "Dimensionality reduction techniques",
+        "Anomaly detection methods",
+        "Association rule learning"
+      ],
+      "status": "Active (Updated July 25)"
+    },
+    {
+      "name": "Historical-Event-Type-Predictor",
+      "url": "https://github.com/HammadAli08/Historical-Event-Type-Predictor",
+      "description": "Predicting the Future Through the Past - Historical event prediction model",
+      "technologies": ["Jupyter Notebook"],
+      "topics": ["time-series-prediction", "historical-analysis", "event-prediction"],
+      "key_content": [
+        "Time series analysis of historical events",
+        "Pattern recognition in historical data",
+        "Predictive modeling for event classification",
+        "Feature engineering for temporal data"
+      ],
+      "status": "Active (Updated July 19)"
+    },
+    {
+      "name": "Tesla-and-GameStop-Stock-Revenue-Dashboard",
+      "url": "https://github.com/HammadAli08/Tesla-and-GameStop-Stock-Revenue-Dashboard",
+      "description": "Tesla and GameStop Stock & Revenue Dashboard - Financial data analysis and visualization",
+      "technologies": ["Jupyter Notebook"],
+      "topics": ["financial-analysis", "data-visualization", "stock-analysis", "dashboard"],
+      "key_content": [
+        "Stock price analysis and visualization",
+        "Revenue tracking and forecasting",
+        "Interactive dashboard creation",
+        "Financial metrics calculation",
+        "Comparative analysis of Tesla and GameStop"
+      ],
+      "status": "Active (Updated July 2)"
+    }
+  ],
+  "learning_approach": "Hands-on implementation of every core data science concept through practical projects",
+  "coverage_areas": [
+    "Supervised Learning (Classification, Regression)",
+    "Unsupervised Learning (Clustering, Dimensionality Reduction)",
+    "Natural Language Processing",
+    "Time Series Analysis",
+    "Financial Data Analysis",
+    "Data Visualization",
+    "Model Evaluation and Testing"
+  ]
+}

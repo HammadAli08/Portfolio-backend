@@ -1,0 +1,39 @@
+{
+  "project_name": "GitHub Intelligence & Research Tool",
+  "repository": "https://github.com/HammadAli08/GitHub-Research-Agent",
+  "status": "Active (Updated 4 hours ago)",
+  "tech_stack": [
+    "LangGraph (Directed Acyclic Graphs)",
+    "Groq (gpt-oss-120b model)",
+    "FastAPI",
+    "React (Vite, TypeScript, Tailwind CSS)",
+    "GitHub REST API",
+    "HTTPX"
+  ],
+  "key_features": [
+    "Multi-Agent Research Pipeline with specialized AI agents",
+    "Parallel analysis of code structure, technical debt, and maintenance health",
+    "Smart repository discovery by keyword, URL, or owner/repo patterns",
+    "Agentic Interrogation Chat with ReAct agent",
+    "Live GitHub API integration for real-time data",
+    "Deep technical synthesis with production-grade reports",
+    "Premium Intelligence Dashboard UI"
+  ],
+  "architecture": {
+    "workflow": [
+      "Code Analysis: Maps file tree and summarizes core logic files",
+      "Issue Intelligence: Evaluates recent issues and PRs",
+      "Trend/Risk Node: Analyzes commit frequency and star velocity",
+      "Community Health: Checks documentation standards",
+      "Senior Synthesis: Combines research into structured JSON report"
+    ],
+    "unique_aspect": "Tool-Calling Agent that fetches live GitHub data during conversations"
+  },
+  "setup_requirements": {
+    "python": "3.10+",
+    "nodejs": "18+",
+    "environment_variables": ["GROQ_API_KEY", "GITHUB_TOKEN"],
+    "installation": "npm run install:all (root-level script)"
+  },
+  "purpose": "Automated deep technical research on any public GitHub repository"
+}

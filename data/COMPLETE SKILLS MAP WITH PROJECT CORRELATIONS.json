@@ -1,0 +1,44 @@
+{
+  "skill_categories": {
+    "ai_ml_frameworks": {
+      "expert_level": ["LangChain", "LangGraph", "TensorFlow", "PyTorch", "Scikit-learn"],
+      "project_applications": [
+        {
+          "skill": "LangGraph",
+          "projects": ["GitHub-Research-Agent", "AI Legal Case Management System"],
+          "implementation": "Agentic workflow orchestration, state management"
+        },
+        {
+          "skill": "TensorFlow/PyTorch",
+          "projects": ["All Data Science practice repos", "Transformer NLP Models"],
+          "implementation": "Model development from scratch, neural network implementation"
+        }
+      ]
+    },
+    "deployment_devops": {
+      "expert_level": ["Docker", "Vercel", "Streamlit Cloud", "Azure Web Apps", "FastAPI"],
+      "project_applications": [
+        {
+          "skill": "Vercel Deployment",
+          "projects": ["GitHub-Research-Agent", "IBM-Hackathone", "Loan Approval Prediction"],
+          "implementation": "Frontend hosting, serverless functions"
+        },
+        {
+          "skill": "Docker",
+          "projects": ["Loan Approval Prediction", "Real-time Sentiment Analysis API"],
+          "implementation": "Containerization for ML models and APIs"
+        }
+      ]
+    },
+    "data_science_core": {
+      "expert_level": ["Pandas", "NumPy", "Data Visualization", "Statistical Analysis", "Feature Engineering"],
+      "project_applications": [
+        {
+          "skill": "Comprehensive Data Science",
+          "projects": ["Data-Science-Toolbox and all practice repositories"],
+          "implementation": "End-to-end data science workflow implementation"
+        }
+      ]
+    }
+  }
+}

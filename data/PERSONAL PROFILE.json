@@ -1,0 +1,30 @@
+{
+  "name": "Hammad Ali Tahir",
+  "title": "AI & Machine Learning Engineer | The Agent Architect",
+  "location": "Lahore, Pakistan (Originally from Sheikhupura District, Punjab)",
+  "education": {
+    "degree": "Bachelor of Science - BS, Computer Science",
+    "institution": "University of Education, Lahore",
+    "duration": "September 2022 - June 2026 (Expected)",
+    "relevant_coursework": [
+      "Linear Algebra",
+      "Statistics",
+      "Object-Oriented Programming",
+      "Data Structures and Algorithms",
+      "Machine Learning",
+      "Data Science",
+      "Database Systems",
+      "AI"
+    ]
+  },
+  "contact": {
+    "email": "hammadalitahir8@gmail.com",
+    "phone": "+92 333 4247884",
+    "linkedin": "https://www.linkedin.com/in/hammad-ali08/",
+    "github": "https://github.com/HammadAli08",
+    "personal_website": "hammadalit-iahir-hywb9z.gamma.site/"
+  },
+  "philosophy": "AI = Logic + Data + Imagination",
+  "specialization": "Designing Intelligent Agentic Workflows that combine probabilistic cognition with deterministic logic",
+  "fun_fact": "I love analyzing cricket bowling stats using time-series anomaly detection!"
+}
